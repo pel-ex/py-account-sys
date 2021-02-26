@@ -9,7 +9,7 @@ found = False
 while acc == False:
     username=input("username: ")
     password=input("password: ")
-    file=open("C:/dev/py auth/auth-users.csv", "r+")
+    file=open("{file_path}", "r+")
     for line in file:
         details=line.split(",")
         if details[0]==username and details [1]==password +"\n":
